@@ -39,8 +39,7 @@ my_data
 To save a local file to cloudstor navigate to the Choose Directory menu option and find where your local file is held, or have the path to it to add to the command. The use the cloud_put command to add the file to your cloudstor account. 
 
 
-
-[image](https://user-images.githubusercontent.com/13778200/184053557-3130fc7e-67b3-41ea-af4f-d3d9e4524f82.png | width=100)
+![Screen Shot 2022-08-01 at 4 57 12 pm](https://user-images.githubusercontent.com/13778200/184055833-2a3d624d-f1a4-4dc8-ae6f-ce8af11f1bcd.png)
 
 
 ```
@@ -51,12 +50,15 @@ cloud_put(local_file = '~/datatosave.sav',
 If youre not sure where the file you require is, use the cloud_browse() function and navitage the menus using the number keys as shown.
 
 
-![image](https://user-images.githubusercontent.com/13778200/184053577-c41c3098-a023-4bce-a6ff-5e4ffdabf823.png)
+![Picture1](https://user-images.githubusercontent.com/13778200/184055813-25d72ece-c501-4b06-a80b-6d8d461d2a66.png)
+
 
 
 You can view the meta data of a file using the cloud_meta() command
+```
 cloud_meta(path = 'cloudstoR Tests/mydata1.csv')
 #>                                             file_name
 #> 1 /plus/remote.php/webdav/cloudstoR Tests/mydata1.csv
 #>                                  tag                 file_modified file_size
 #> 1 "9a2a8fdd58a6c2746cd65b7dace6115c" Sun, 16 Jan 2022 05:42:52 GMT        36
+```
