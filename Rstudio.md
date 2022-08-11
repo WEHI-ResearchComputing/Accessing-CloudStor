@@ -16,7 +16,7 @@ library(cloudstoR)
 
 This will have downloaded and loaded cloudstoR into your R session. 
 To authenticate yourself use the following command and enter your username and password when prompted, this will stop you needing to enter it everytime you call a function. You can use this again to reset your name and password. If you need to revoke your app password you can use reset_keys=TRUE which removes the authentication.
-````
+```
 cloud_auth()or cloud_auth(reset_keys=TRUE)
 ```
 
